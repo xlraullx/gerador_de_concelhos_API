@@ -2,26 +2,26 @@ const campoIdDoConselho = document.querySelector('.advice-id')
 const campoConselho = document.querySelector('.advice-description') 
 const bntConselho = document.querySelector('.advice-update')
 
-geradorDeConselho()
+gerarConselho()
 
 bntConselho.addEventListener('click',async () => {
-    geradorDeConselho()
+    gerarConselho()
 })
 
-async function geradorDeConselho(){
+async function gerarConselho(){
     try {
-        let conselho = await gerarConselho()
+        const response = await fetch('https://api.adviceslip.com/advice')
+        if(!response.ok){
+            throw new Error("Ocorreu um erro ao tentar buscar as informações da API");
+        }
+
+        const conselho = await response.json()
         mostrarConselho(conselho)
+
     } catch (error) {
         campoIdDoConselho.innerText = 'ERRO'
         campoConselho.innerText = `Ocorreu um erro: ${error}`
     }
-}
-
-async function gerarConselho(){
-    const url = 'https://api.adviceslip.com/advice'
-    return await (await fetch(url)).json()
-    
 }
 
 async function mostrarConselho(conselho){

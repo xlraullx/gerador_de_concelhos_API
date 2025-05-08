@@ -6,8 +6,8 @@
 </div>
 
 ## Meu processo de criação
-Esse é um projeto feito do curso dev em dobro, onde junto dos vídeos eu aprendi a como fazer esse gerador de conselhos do frontendmentor <br>
-Foi uma ótima experiência, com o JavaScript sinto que posso criar muitas outras ideias, nesse projeto pude práticar e entender mais sobre o fetch, try, catch e async function.
+feito a partir do curso dev em dobro, onde junto dos vídeos eu aprendi a como fazer esse gerador de conselhos do frontendmentor <br>
+Foi uma ótima experiência, com o JavaScript sinto que posso criar muitas outras ideias, nesse projeto pude praticar e entender mais sobre o fetch, try, catch e async function.
 
 ### O que aprendi
 - Aprendi sobre como fazer uma chamada em uma API
@@ -15,11 +15,11 @@ Foi uma ótima experiência, com o JavaScript sinto que posso criar muitas outra
 - Muito mais noção sobre como usar try catch e as async function
 
 ### Dificuldades no desenvolvimento
-- Até eu entender como usar o try e catch juntamente com tudo eu fiquei com bastante dúvidas, mas nada como a prática não possa nos dar uma mãozinha. 
+- Até eu entender como usar o try e catch juntamente com tudo eu fiquei com bastante dúvidas, mas nada como a pratica não possa nos dar uma mãozinha. 
   
 ## Resolução do exercício
 
-- Site da resolução: https://xlraullx.github.io/gerador_de_concelhos_API/
+- Site da resolução: https://xlraullx.github.io/gerador_de_conselhos_API/
 
 ## Contato
 <p align="center">
